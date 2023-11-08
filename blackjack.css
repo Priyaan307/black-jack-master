@@ -1,121 +1,40 @@
- 
-
-/* -------------------------------------------------------------- */
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-}
-body {
   background-image: url("images.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-}
-#dealer-cards img {
-  height: 175px;
-  width: 125px;
-  margin: 1px;
-}
-h2 {
-  color: #fff;
-}
-#your-cards img {
-  height: 175px;
-  width: 125px;
-  margin: 1px;
-}
-#hit {
-  background-color: #5b10a1;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-#hit:hover {
-  background-color: #dd0a0a;
-}
-#stay {
-  background-color: #5b10a1;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-#stay:hover {
-  background-color: #dd0a0a;
-}
-
-.newGameButton{
-    background-color: #5b10a1;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    margin-left: 30px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-.newGameButton:hover{
-    background-color: #dd0a0a;
-
-}
-
-#level {
-  background-color: #13c6d38f;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-#level:hover {
-  background-color: #e60b41;
-}
-
-body {
   margin: 0;
   padding: 0;
 }
-.background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background-color: #000;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-  background-size: cover;
+
+#dealer-cards img, #your-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
 }
-.content {
-  position: relative;
-  z-index: 1;
+
+h2, p {
+  color: #fff;
+}
+
+#hit, #stay, #newGame {
+  background-color: #5b10a1;
+  color: white;
+  padding: 10px 20px;
   text-align: center;
-  padding: 50px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
-h1 {
-  color: #fff;
+
+#hit:hover, #stay:hover, #newGame:hover {
+  background-color: #dd0a0a;
 }
-p {
-  color: #fff;
+
+#newGame{
+    margin-left: 30px;
 }
-body:hover .background {
-  opacity: 0.5;
-}
-#myButton {
-  display: none; /* Initially hide the button */
-}
+
